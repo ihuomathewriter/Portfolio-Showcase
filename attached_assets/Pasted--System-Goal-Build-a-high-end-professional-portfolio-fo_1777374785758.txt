@@ -1,0 +1,56 @@
+
+
+**System Goal:** Build a high-end, professional portfolio for Ihuoma Okechukwu, a **Content Strategist & Media Communications Specialist** with 6+ years of experience. The site must prioritize "Authority, Growth, and Narrative" over decorative imagery.
+
+**Design Aesthetic (The "Editorial Ledger" Style):**
+* **Palette:** Minimalist White and Deep Forest Green. Use Sage Green for secondary buttons and light Mint-Grey for section backgrounds. 
+* **Typography:** Use a bold, academic Serif (e.g., Playfair Display) for headers to reflect an English & Literary Studies background. Use a modern, tight Sans-Serif (e.g., Inter) for data and body copy.
+* **Visual Direction:** Low-image, high-impact. Use thin lines, structured grids, and "Data Callouts" instead of stock photos.
+
+**Core Sections & Content:**
+
+**1. Hero Section (The Hook):**
+* **Headline:** Ihuoma Okechukwu: Content Strategy & Media Communications.
+* **Sub-headline:** "Designing SEO-led content systems and end-to-end narratives that drive visibility, perception, and measurable growth."
+* **CTA:** [View Case Studies] [Download CV]
+
+**2. The Impact Grid (Hard Metrics):**
+* Create a clean row of 3 cards with large green numbers:
+    * **900% (9x):** Increase in Net Profit for Spicy Buds Kilishi via strategic content roadmap.
+    * **30%:** Growth in organic website traffic for ShipPack through SEO-led systems.
+    * **20%:** Increase in readership/impressions for FAB Magazine within 4 months.
+
+**3. Strategic Pillars (Services):**
+* **Content Operations & Systems:** Building editorial calendars and workflows that scale (ShipPack, Spicy Buds).
+* **Editorial & Narrative Strategy:** High-level storytelling for culture, lifestyle, and media (FAB Magazine, Mainland FM).
+* **End-to-End Growth Content:** Full-funnel execution across Blogs, Email, and Social (SaaS, Logistics, Retail).
+
+**4. The Archive (Project Categories):**
+* Use a clean, filterable list (Authory-style) with these specific categories:
+    * **Agribusiness & Industry:** Expert profiles and sector-specific growth strategy.
+    * **Sustainability & Impact:** Content focused on green packaging and eco-friendly business models.
+    * **Wellness & Lifestyle:** Targeted engagement campaigns for yoga and creative sectors.
+    * **Technical & Academic:** Research-driven writing and educational design (English Studies pedagogy).
+
+**5. Case Study Highlight (Detailed Block):**
+* A dedicated section for **Spicy Buds Kilishi**. Text: "From Founder-dependency to 9x Profit. How I built a 6-month content roadmap, structured a media team, and scaled organic traffic by 40%."
+
+**6. Academic & Research Foundation:**
+* A "Foundations" section mentioning the **B.A. in English and Literary Studies (UNN)** and research in **Postcolonial Identity**. This frames the user as a writer with deep intellectual depth, not just a marketer.
+
+**7. Resources & Lead Magnets:**
+* A "Document Gallery" style section for E-books (Agrodemy), scriptwriting (Mainland FM), and published research (Bloomsbury Academic).
+
+**8. Footer:**
+* Contact details, LinkedIn link, and Medium link. Tagline: "Strategic Storytelling. Measurable Results."
+
+**Functional Requirement:**
+* If no photo is provided for a project, generate a clean, green-tinted card with the project's initials and a subtle geometric pattern.
+
+***
+
+### Why this works for your specific situation:
+1.  **Identity Shift:** By using "Media Communications" and "Content Systems," you position yourself as a manager/strategist rather than just a "writer for hire."
+2.  **The "NGO" Fix:** I used **"Social Impact"** and **"Development Communication"** to describe your work with Lead Africa and NYSC. This is the professional terminology used in the global job market for that kind of work.
+3.  **Academic Weight:** Most writers ignore their degree. By including your research on "Identity Reconstruction" and "Postcolonialism," you stand out to high-paying agencies and international brands who value "Perception" and "Voice."
+4.  **No-Photo Logic:** The "Editorial Ledger" style makes the lack of photos look like an intentional, high-brow design choice rather than a missing asset.

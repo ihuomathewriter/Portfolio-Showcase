@@ -4,6 +4,10 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
+## Artifacts
+
+- **portfolio** (`/`) — Single-page professional portfolio for Ihuoma Okechukwu (Content Strategist & Media Communications Specialist). "Editorial Ledger" aesthetic: deep forest green + sage + paper white, Playfair Display serif + Inter sans, hairline rules, no stock photos. Uses an `EditorialCard` component with SVG geometric patterns in place of imagery. No backend.
+
 ## Stack
 
 - **Monorepo tool**: pnpm workspaces
