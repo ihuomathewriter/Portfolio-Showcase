@@ -1,0 +1,273 @@
+# REPLIT PORTFOLIO — FINAL MODIFICATION PROMPT
+# Ihuoma Okechukwu — Content Strategist & Media Communications Specialist
+# Paste this entire prompt into Replit. Do not rebuild from scratch.
+# Apply all changes on top of the existing build.
+
+---
+
+## SECTION 1: HERO — ADD PHOTO
+
+Add a professional headshot to the hero section. Place it to the right of the 
+headline text in a two-column layout on desktop, and centered above the text 
+on mobile. The image should be circular (border-radius: 50%). Use a placeholder 
+image element with the ID `hero-headshot` and the alt text "Ihuoma Okechukwu — 
+Content Strategist and Media Communications Specialist" so the real photo can 
+be swapped in easily. Add a deep forest green border ring around the image to 
+stay on-brand.
+
+---
+
+## SECTION 2: IMPACT GRID — UPDATE METRICS
+
+Update the three Impact Grid cards as follows:
+
+Card 1 — Keep this number:
+"900% (9x) increase in net profit for Spicy Buds Kilishi via a structured 
+6-month content roadmap and media team build-out."
+
+Card 2 — Replace with scope-based description:
+"Built and managed an SEO-led content system for ShipPack that drove consistent 
+organic traffic growth across blog, email, and social channels — without paid ads."
+
+Card 3 — Keep this number:
+"20% increase in readership and impressions for FAB Magazine within 4 months 
+of content restructuring."
+
+---
+
+## SECTION 3: SHIPPACK CASE STUDY — ADD OR UPDATE
+
+Create a dedicated ShipPack Case Study section after the Impact Grid.
+If a case study section already exists, replace it with this content.
+
+**Section Title:** ShipPack — Building a Brand Presence From the Ground Up
+
+**Case Study Text:**
+Managed ShipPack's full content and social media operation across Facebook, 
+Instagram, LinkedIn, and Twitter over six months, with no paid advertising 
+budget for the majority of the engagement period. Grew the brand's combined 
+following from 750 to over 1,600 organically through a structured content 
+strategy that included trend-led posts, educational carousels, email newsletters, 
+and community engagement.
+
+Produced and managed a six-month editorial content calendar (July to December) 
+covering daily posts across four platforms, each adapted in tone and format for 
+its audience — from conversational Instagram captions to long-form LinkedIn copy. 
+Authored the brand's weekly email newsletter series, writing with a voice that 
+was warm, culturally grounded, and conversion-aware. Developed three lead magnets, 
+a customer persona profile, and a structured social media performance reporting 
+system tracking reach, engagement rate, impressions, and follower growth.
+
+Key outcome: ShipPack's Instagram account was recognised and reshared by larger 
+accounts in the logistics space — generating brand visibility beyond its follower 
+count. LinkedIn grew from 937 to over 1,063 followers organically, with engagement 
+rates peaking at 16.4%. Twitter impressions grew 7x following a viral internship 
+campaign, with no ad spend. Identified that trend-led, leisure, and celebration 
+content consistently outperformed promotional posts — a finding that directly 
+shaped the content pivot to Reels and carousels in Q1 2025.
+
+**Work Sample Cards in this section:**
+Display each as a card with title, short description, and a "View Document" 
+button. All links open in a new tab. Add the note beneath each card: 
+"Opens in Google Docs — no sign-in required."
+
+Card 1 — Email Newsletter Series
+Title: ShipPack Weekly Email Drops — Series A
+Description: Conversion-focused weekly newsletters blending brand storytelling, 
+logistics education, and warm community voice.
+Link: https://docs.google.com/document/d/17al8VworD-dFW9b6D0J4L4yyLEKa5Pj3_4SJ5Shb2NA/edit?usp=sharing
+
+Card 2 — Email Newsletter Series
+Title: ShipPack Weekly Email Drops — Series B
+Description: Retention and engagement-led email copy, including the viral 
+"Quitters Don't Win" campaign and motivational series.
+Link: https://docs.google.com/document/d/1NtkhFJrnczyxNIPqLCPL-qMgzQzgb7N9-Rvb3oAISto/edit?usp=sharing
+
+Card 3 — Email Newsletter Series
+Title: ShipPack Weekly Email Drops — Series C
+Description: Educational and product-led emails covering logistics strategy, 
+delivery tips, and platform updates.
+Link: https://docs.google.com/document/d/1COjANQyj_LVlW6AGHEYaAisgwCs8I7Z7GIolbqhD6TU/edit?usp=sharing
+
+Card 4 — Email Newsletter Series
+Title: ShipPack Weekly Email Drops — Series D
+Description: Community-building and seasonal email campaigns including 
+Easter, Q1 wrap-up, and TikTok launch announcements.
+Link: https://docs.google.com/document/d/1FSEflgkUANW3N0JxniXGZ5QGM-xv8Jq03AXTSgD1DAA/edit?usp=sharing
+
+Card 5 — Content Calendar
+Title: 6-Month Editorial Calendar (July–December)
+Description: Full daily content calendar across Instagram, Facebook, LinkedIn, 
+and TikTok — including captions, content types, design briefs, and hashtag strategy.
+Display as a PDF download card. File: Content_Calendar_For_ShipPack.pdf
+Button label: "Download Calendar (PDF)"
+
+Card 6 — Social Media Performance
+Title: Organic Growth Report — ShipPack
+Description (text summary card — no link):
+Six months of organic social media performance across four platforms. Follower 
+growth from 750 to 1,600+. LinkedIn engagement rate peaked at 16.4%. Twitter 
+impressions grew 7x. Key insight: trend-led and leisure content consistently 
+outperformed promotional posts, leading to a strategic pivot toward Reels and 
+carousels.
+
+Card 7 — Audience Research
+Title: ShipPack Customer Persona Profile — Document A
+Description: Audience research and persona documentation developed to inform 
+ShipPack's content targeting and campaign strategy.
+Link: https://docs.google.com/document/d/1qQfaL51SPHptJ5XB0L-rIc3vrV9mtO-5qlGWXOB4pT0/edit?usp=sharing
+
+Card 8 — Audience Research
+Title: ShipPack Customer Persona Profile — Document B
+Description: Extended persona and growth strategy documentation covering 
+audience segmentation and content direction.
+Link: https://docs.google.com/document/d/1VKkwCaqXaWt-MlaM281QxdR5tMhzosppHbn45YhemTs/edit?usp=sharing
+
+Card 9 — Growth Strategy
+Title: Content Growth Strategy — ShipPack
+Description: Strategic content and growth planning document covering channel 
+direction, content pillars, and campaign frameworks.
+Link: https://docs.google.com/document/d/1dpaOc1aMji6bOg6XKr23VIorBDLSVcOV7muicUYrPSc/edit?tab=t.0
+
+---
+
+## SECTION 4: SPICY BUDS KILISHI CASE STUDY — ADD OR UPDATE
+
+Add a second dedicated case study block for Spicy Buds Kilishi.
+
+**Section Title:** Spicy Buds Kilishi — From Founder-Dependency to 9x Revenue Growth
+
+**Case Study Link:**
+Title: Driving 9× Revenue Growth Through Strategic Content
+Description: A detailed case study of the 6-month content roadmap, 
+media team structure, and organic traffic strategy that produced a 900% 
+increase in net profit for Spicy Buds Kilishi.
+Link: https://docs.google.com/document/d/1vWR6x69sW-AMJFnk5xhRUkqbACieasbigCy2_iH-izA/edit?usp=sharing
+Button: "Read Case Study"
+
+---
+
+## SECTION 5: ARCHIVE / WRITING SAMPLES — ADD OR UPDATE
+
+Add or update the Archive section with a filterable list layout (Authory-style). 
+Each item shows: Title, Category tag, and a "Read" or "View" link opening in a 
+new tab.
+
+**Logistics & Trade**
+- AfCFTA Impact: What African Businesses Need to Know
+  Link: https://docs.google.com/document/d/1BEgr71M8uMq8A1_3ZOGGU_YrgV-h9McSMFzevFf47YU/edit?usp=sharing
+  Tag: Logistics & Trade | SEO Article
+
+**Digital Marketing**
+- 4 Influencer Marketing Strategies for Small Businesses
+  Link: https://docs.google.com/document/d/1HL_jYn_KR5eZ_KdszmVY8aU0DHWiXHLTaTR_ETflF5U/edit?usp=sharing
+  Tag: Digital Marketing | Strategy
+
+**Sustainability & Impact**
+- How Small Businesses Can Build Customer Loyalty With Green Packaging
+  Link: https://docs.google.com/document/d/13EsSzW8KlVFXWYsdhIv43nmgwnd-31oaP932FCKVanY/edit?usp=sharing
+  Tag: Sustainability | Small Business
+
+**Copywriting & Landing Pages**
+- Landing Page Sample
+  Link: https://docs.google.com/document/d/1FVd4Kq4APQENtJRcun_uadWFJmtgNjdPRobcT8OHutc/edit?usp=sharing
+  Tag: Copywriting | Landing Page
+
+**Technical & Academic**
+- Published Chapter — Bloomsbury Academic Press
+  Display as a placeholder card with badge reading "Peer Reviewed / Published — Link Coming Soon"
+  Tag: Academic | Postcolonial Studies
+
+**Lifestyle & Culture**
+- 5 Best Nigerian Contemporary Novels to Read in 2024
+  Link: https://medium.com/@ihuomathewriter
+  Tag: Lifestyle | Book Reviews
+
+---
+
+## SECTION 6: RESOURCES & LEAD MAGNETS — ADD OR UPDATE
+
+Add a Resources section styled as a document gallery. Each resource displays 
+as a card with title, short description, and a download button in deep forest green.
+All three are PDF files — display as downloadable PDF cards.
+
+Resource 1:
+Title: 25 Best Practices for Sustainable Logistics
+Description: A practical checklist for building a resilient, efficient, and 
+future-proof supply chain. Covers operations, energy efficiency, sustainability 
+standards, automation, and long-term growth.
+File: Checklist__25_Best_Practices_for_Sustainable_Logistics_.pdf
+Button: "Download Checklist (PDF)"
+
+Resource 2:
+Title: International Shipping Cost-Reduction Toolkit (2025 Edition)
+Description: A step-by-step toolkit for reducing international shipping costs. 
+Includes forecast sheets, carrier comparison tools, a freight forwarder vetting 
+checklist, a negotiation cheat sheet, and a KPI dashboard template.
+File: International_Shipping_Cost-Reduction_Toolkit__2025_Edition___1_.pdf
+Button: "Download Toolkit (PDF)"
+
+Resource 3:
+Title: Perishable Export Compliance Checklist (2025 Edition)
+Description: A pre-dispatch control tool for African exporters shipping 
+perishable goods across borders. Covers product assessment, cold-chain 
+integrity, documentation, customs, and final verification.
+File: Cold-Chain_Export_Readiness_Checklist_.pdf
+Button: "Download Checklist (PDF)"
+
+---
+
+## SECTION 7: ACADEMIC & RESEARCH FOUNDATION — UPDATE
+
+Update the Foundations section with the following text exactly:
+
+"Ihuoma Okechukwu holds a B.A. in English and Literary Studies from the 
+University of Nigeria, Nsukka, where her undergraduate research focused on 
+postcolonial identity and memory in contemporary African fiction — work that 
+later became a published chapter with Bloomsbury Academic Press. She is an 
+incoming M.A. student and Teaching Fellow in the English Department at Lehigh 
+University (Fall 2026), where her research continues at the intersection of 
+postcolonial African fiction, spatial theory, and digital humanities. Her 
+academic background shapes how she approaches content — not as a production 
+task, but as an act of positioning, narrative, and meaning-making."
+
+---
+
+## SECTION 8: FOOTER — UPDATE ALL LINKS
+
+Replace all placeholder contact and social links in the footer with the following. 
+Each should be a clickable icon + text link opening in a new tab. 
+Use clean SVG icons with forest green accents.
+
+- Email: ihuomathewriter@gmail.com
+  Link: mailto:ihuomathewriter@gmail.com
+
+- LinkedIn: linkedin.com/in/ihuoma-okechukwu-1441a61b8
+  Link: https://www.linkedin.com/in/ihuoma-okechukwu-1441a61b8
+
+- Instagram: @ihuoma_okechukwu__
+  Link: https://www.instagram.com/ihuoma_okechukwu__
+
+- Medium: @ihuomathewriter
+  Link: https://medium.com/@ihuomathewriter
+
+- TikTok: @ihuomawrites
+  Link: https://www.tiktok.com/@ihuomawrites
+
+Keep footer minimal — dark background, white text, forest green icon accents.
+Tagline stays: "Strategic Storytelling. Measurable Results."
+
+---
+
+## SECTION 9: GENERAL RULES — APPLY TO ALL CHANGES
+
+- Do not change the colour palette, typography, or overall layout structure.
+- Do not remove any existing content not mentioned in this prompt.
+- All external links open in a new tab (target="_blank" rel="noopener").
+- All Google Docs links open in view mode. Add the note beneath each 
+  linked card: "Opens in Google Docs — no sign-in required."
+- PDF download cards should trigger a file download, not open in a new tab.
+- All placeholder slots marked [COMING SOON] should display a styled 
+  muted badge so they are visible but not broken.
+- Upload all PDF files to the Replit project before running. 
+  File names must match exactly as listed above.
