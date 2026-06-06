@@ -262,19 +262,6 @@ export default function Home() {
                 Designing SEO-led content systems and end-to-end narratives that drive visibility, perception, and measurable growth.
               </motion.p>
 
-              <motion.div variants={fadeInUp} className="flex flex-wrap items-center gap-4">
-                <button
-                  onClick={() => scrollTo("case-studies")}
-                  className="bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 group"
-                >
-                  View Case Studies
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="border border-secondary text-secondary px-6 py-3 text-sm font-medium hover:bg-secondary/10 transition-colors flex items-center gap-2">
-                  Download CV
-                  <Download className="w-4 h-4" />
-                </button>
-              </motion.div>
             </motion.div>
 
             {/* Hero headshot */}
