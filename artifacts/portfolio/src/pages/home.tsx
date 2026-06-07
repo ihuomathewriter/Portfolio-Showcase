@@ -90,7 +90,7 @@ const archiveItems = [
     comingSoon: true,
   },
   {
-    title: "5 Best Nigerian Contemporary Novels to Read in 2024",
+    title: "Teal Culture: A Renaissance Of Art and Decor",
     publication: "Medium",
     initials: "MD",
     year: "2024",
@@ -98,7 +98,7 @@ const archiveItems = [
     category: "Lifestyle & Culture",
     tag: "Lifestyle | Book Reviews",
     pattern: "diagonal" as const,
-    link: "https://medium.com/@ihuomathewriter",
+    link: "https://medium.com/@ihuomathewriter/teal-culture-is-cooking-up-a-renaissance-where-art-meets-decor-1f5f013e1a79",
   },
 ];
 
