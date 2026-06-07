@@ -94,11 +94,12 @@ const archiveItems = [
     publication: "Medium",
     initials: "MD",
     year: "2024",
-    dek: "A curated reading list at the intersection of modern Nigerian fiction, cultural memory, and global literary awards.",
+    dek: "Exploring how Teal Culture is sparking a new wave at the intersection of contemporary African art and interior design.",
     category: "Lifestyle & Culture",
-    tag: "Lifestyle | Book Reviews",
+    tag: "Lifestyle | Reviews",
     pattern: "diagonal" as const,
     link: "https://medium.com/@ihuomathewriter/teal-culture-is-cooking-up-a-renaissance-where-art-meets-decor-1f5f013e1a79",
+    image: "/teal-culture.png",
   },
 ];
 
@@ -161,8 +162,8 @@ const shippackCards = [
     isPdf: false,
   },
   {
-    type: "Audience Research",
-    title: "ShipPack Customer Persona Profile — Document B",
+    type: "Project Research",
+    title: "Jane Project Overview",
     desc: "Extended persona and growth strategy documentation covering audience segmentation and content direction.",
     link: "https://docs.google.com/document/d/1VKkwCaqXaWt-MlaM281QxdR5tMhzosppHbn45YhemTs/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -441,10 +442,6 @@ export default function Home() {
                   </div>
                 ))}
               </motion.div>
-
-              <motion.p variants={fadeInUp} className="text-sm text-foreground/70 leading-relaxed max-w-4xl mb-16 border-l-2 border-primary pl-6">
-                Key outcome: ShipPack's Instagram account was recognised and reshared by larger accounts in the logistics space — generating brand visibility beyond its follower count. Identified that trend-led, leisure, and celebration content consistently outperformed promotional posts — a finding that directly shaped the content pivot to Reels and carousels in Q1 2025.
-              </motion.p>
 
               <motion.div variants={fadeInUp}>
                 <h3 className="text-xs font-bold tracking-widest uppercase text-muted-foreground mb-8 border-b border-border pb-4">
@@ -758,6 +755,18 @@ export default function Home() {
             <div className="absolute left-0 top-0 bottom-0 w-px bg-border hidden md:block"></div>
 
             {[
+              {
+                role: "AI Conversation Designer",
+                company: "Jane",
+                period: "Feb 2026 – Apr 2026",
+                location: "Remote",
+                type: "AI & Health Tech",
+                bullets: [
+                  "Designed conversations and dialogue flows for Jane's AI agent on WhatsApp, structuring user journeys for clarity, empathy, and conversion.",
+                  "Developed the AI agent's persona, tone of voice, and response framework to align with Jane's brand identity and target audience.",
+                  "Crafted scripts and decision-tree flows covering core use cases including onboarding, product discovery, and support interactions.",
+                ],
+              },
               {
                 role: "Content Writer & Strategist",
                 company: "ShipPack",
