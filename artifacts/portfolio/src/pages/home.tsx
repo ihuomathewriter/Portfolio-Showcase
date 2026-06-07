@@ -39,6 +39,7 @@ const archiveItems = [
     tag: "Logistics & Trade | SEO Article",
     pattern: "grid" as const,
     link: "https://docs.google.com/document/d/1BEgr71M8uMq8A1_3ZOGGU_YrgV-h9McSMFzevFf47YU/edit?usp=sharing",
+    image: "/afcfta-impact.jpg",
   },
   {
     title: "4 Influencer Marketing Strategies for Small Businesses",
@@ -72,6 +73,7 @@ const archiveItems = [
     tag: "Copywriting | Landing Page",
     pattern: "crosshatch" as const,
     link: "https://docs.google.com/document/d/1FVd4Kq4APQENtJRcun_uadWFJmtgNjdPRobcT8OHutc/edit?usp=sharing",
+    image: "/landing-page-sample.png",
   },
   {
     title: "Published Chapter — Bloomsbury Academic Press",
@@ -362,6 +364,11 @@ export default function Home() {
                 ShipPack — Building a Brand Presence<br className="hidden md:block" /> From the Ground Up
               </motion.h2>
 
+              <motion.div variants={fadeInUp} className="mb-6">
+                <span className="text-xs text-muted-foreground font-mono uppercase tracking-wider">
+                  Role: Content Writer &amp; Strategist · Aug 2024 – Present
+                </span>
+              </motion.div>
               <motion.div variants={fadeInUp} className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 <p className="text-base leading-relaxed text-foreground/80">
                   Managed ShipPack's full content and social media operation across Facebook, Instagram, LinkedIn, and Twitter over six months, with no paid advertising budget for the majority of the engagement period. Grew the brand's combined following from <strong className="text-foreground">750 to over 1,600</strong> organically through a structured content strategy that included trend-led posts, educational carousels, email newsletters, and community engagement.
@@ -470,7 +477,7 @@ export default function Home() {
                     Systematized content production leading to a <span className="font-bold text-primary-foreground">+40% organic traffic</span> surge within two quarters, ultimately contributing to a <span className="font-bold text-primary-foreground">9x increase in net profit</span>.
                   </p>
                   <div className="text-xs text-primary-foreground/50 border-t border-primary-foreground/20 pt-4">
-                    Role: Lead Content Strategist · Period: 2024 – 2025
+                    Role: Content Manager · Period: Jan 2023 – Oct 2023
                   </div>
                 </div>
               </div>
@@ -592,7 +599,17 @@ export default function Home() {
                 className="group flex flex-col md:flex-row gap-6 py-8 border-b border-border hover:bg-muted/30 transition-colors px-4 -mx-4"
               >
                 <div className="w-24 md:w-32 flex-shrink-0">
-                  <EditorialCard initials={item.initials} pattern={item.pattern} />
+                  {"image" in item && item.image ? (
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <EditorialCard initials={item.initials} pattern={item.pattern} />
+                  )}
                 </div>
                 <div className="flex flex-col justify-center flex-1">
                   <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-muted-foreground mb-3 uppercase tracking-wider">
@@ -651,7 +668,7 @@ export default function Home() {
                 <div>
                   <dt className="text-xs text-foreground/60 uppercase mb-1">Undergraduate Degree</dt>
                   <dd className="font-serif text-lg text-primary">B.A. English & Literary Studies</dd>
-                  <dd className="text-sm text-foreground/80">University of Nigeria, Nsukka (UNN)</dd>
+                  <dd className="text-sm text-foreground/80">University of Nigeria, Nsukka (UNN) · Graduated May 2024</dd>
                 </div>
 
                 <div>
