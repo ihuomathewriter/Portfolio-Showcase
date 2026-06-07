@@ -215,6 +215,7 @@ const resourceItems = [
 const NAV_LINKS = [
   { label: "Work", id: "impact" },
   { label: "Cases", id: "case-studies" },
+  { label: "Jane", id: "jane-case-study" },
   { label: "Pillars", id: "pillars" },
   { label: "Archive", id: "archive" },
   { label: "Foundations", id: "foundations" },
@@ -556,7 +557,7 @@ export default function Home() {
         </div>
 
           {/* Jane Case Study */}
-          <section className="py-24 px-6 max-w-6xl mx-auto">
+          <section id="jane-case-study" className="py-24 px-6 max-w-6xl mx-auto">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -763,8 +764,14 @@ export default function Home() {
                 <h2 className="font-serif text-4xl text-primary">Foundations</h2>
                 <div className="flex-1 h-px bg-border"></div>
               </div>
+              <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                Ihuoma Okechukwu is a marketing professional and content strategist with 6+ years of experience creating optimised content and systems that drive organic growth, visibility, and brand trust for growing businesses. She works across strategy and execution: from content planning, keyword research, and editorial calendar development to writing, SEO optimisation, distribution, and performance analysis, with a clear focus on outcomes.
+              </p>
+              <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                Her work has contributed to up to 40% growth in organic traffic, increased visibility across blogs, email, and social channels, and content systems that scale sustainably. Across media, technology, education, and consumer brands, she has owned content end to end: building strategies from scratch, writing and optimising high-performing content, and using performance data to refine what works.
+              </p>
               <p className="text-lg leading-relaxed text-foreground/80">
-                Ihuoma Okechukwu is a Digital Communications Specialist with over six years of experience creating strategic, audience-focused content across media, technology, logistics, education, and social impact spaces. She has a proven ability to plan and execute digital campaigns, manage social media platforms, and use analytics to improve engagement and visibility. A strong storyteller, she translates complex ideas into clear, relatable narratives that support organisational goals and public engagement. She is passionate about development communication and impact-driven storytelling through digital media. Her academic foundation in English and Literary Studies from the <span className="font-semibold text-foreground">University of Nigeria, Nsukka</span>, sharpened her ability to read audiences, construct meaning, and build narratives that resonate. She is an incoming M.A. Teaching Fellow at <span className="font-semibold text-foreground">Lehigh University (Fall 2026)</span>.
+                She is passionate about development communication and impact-driven storytelling through digital media. Her academic foundation in English and Literary Studies from the <span className="font-semibold text-foreground">University of Nigeria, Nsukka</span>, sharpened her ability to read audiences, construct meaning, and build narratives that resonate. She is an incoming M.A. Teaching Fellow at <span className="font-semibold text-foreground">Lehigh University (Fall 2026)</span>.
               </p>
             </div>
 
