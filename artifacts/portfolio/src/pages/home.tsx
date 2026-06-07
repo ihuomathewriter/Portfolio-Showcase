@@ -90,6 +90,30 @@ const archiveItems = [
     comingSoon: true,
   },
   {
+    title: "25 Best Practices for Sustainable Logistics: How to Build a Lasting Supply Chain",
+    publication: "ShipPack Blog",
+    initials: "SP",
+    year: "2024",
+    dek: "Sustainable logistics is about designing operations that are resilient, efficient, adaptable, and built to withstand market shifts, disruptions, and customer demands.",
+    category: "Logistics & Trade",
+    tag: "Logistics | Sustainability",
+    pattern: "grid" as const,
+    link: "https://blog.theshippack.com/the-complete-list-25-best-practices-for-sustainable-logistics-that-last",
+    image: "/logistics-sustainable.png",
+  },
+  {
+    title: "Logistics and Food Security: Africa's High-Stakes Intersection",
+    publication: "ShipPack Blog",
+    initials: "SP",
+    year: "2024",
+    dek: "From spoiled harvests on Kenyan roads to continent-wide supply failures: how logistics breakdowns silently drive food insecurity across Africa.",
+    category: "Logistics & Trade",
+    tag: "Logistics | Food Security | Africa",
+    pattern: "dots" as const,
+    link: "https://blog.theshippack.com/logistics-and-food-security-africas-high-stakes-intersection",
+    image: "/logistics-food-security.png",
+  },
+  {
     title: "Teal Culture: A Renaissance Of Art and Decor",
     publication: "Medium",
     initials: "MD",
@@ -307,13 +331,17 @@ export default function Home() {
                 </span>
               </motion.div>
 
+              <motion.p variants={fadeInUp} className="text-sm italic text-muted-foreground mb-3 tracking-wide">
+                Marketing professional
+              </motion.p>
+
               <motion.h1 variants={fadeInUp} className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.1] tracking-tight mb-8 text-foreground">
-                Content Strategy &<br />
-                Media <span className="italic text-primary">Communications.</span>
+                Content Writer &<br />
+                <span className="italic text-primary">Strategist.</span>
               </motion.h1>
 
               <motion.p variants={fadeInUp} className="text-lg md:text-xl text-foreground/80 max-w-2xl leading-relaxed mb-12">
-                Designing SEO-led content systems and end-to-end narratives that drive visibility, perception, and measurable growth.
+                Designing content systems and end-to-end narratives that drive visibility, perception, and measurable growth.
               </motion.p>
 
             </motion.div>
@@ -793,20 +821,6 @@ export default function Home() {
                   <dd className="text-sm text-foreground/80">Lehigh University</dd>
                 </div>
 
-                <div>
-                  <dt className="text-xs text-foreground/60 uppercase mb-1">Research Focus</dt>
-                  <dd className="font-serif text-lg text-primary">Postcolonial African Fiction</dd>
-                  <dd className="text-sm text-foreground/80">Spatial theory · Digital humanities · Identity reconstruction</dd>
-                </div>
-
-                <div>
-                  <dt className="text-xs text-foreground/60 uppercase mb-1">Published Work</dt>
-                  <dd className="text-sm text-foreground/80 leading-relaxed">
-                    Bloomsbury Academic Press <span className="mx-2 text-border">|</span>
-                    Postcolonial discourse <span className="mx-2 text-border">|</span>
-                    Cultural memory
-                  </dd>
-                </div>
               </dl>
             </div>
           </div>
