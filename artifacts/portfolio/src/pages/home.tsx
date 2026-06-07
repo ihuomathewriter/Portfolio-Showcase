@@ -51,6 +51,7 @@ const archiveItems = [
     tag: "Digital Marketing | Strategy",
     pattern: "diagonal" as const,
     link: "https://docs.google.com/document/d/1HL_jYn_KR5eZ_KdszmVY8aU0DHWiXHLTaTR_ETflF5U/edit?usp=sharing",
+    image: "/influencer-marketing.png",
   },
   {
     title: "How Small Businesses Can Build Customer Loyalty With Green Packaging",
@@ -62,6 +63,7 @@ const archiveItems = [
     tag: "Sustainability | Small Business",
     pattern: "dots" as const,
     link: "https://docs.google.com/document/d/13EsSzW8KlVFXWYsdhIv43nmgwnd-31oaP932FCKVanY/edit?usp=sharing",
+    image: "/green-packaging.png",
   },
   {
     title: "Landing Page Sample",
@@ -361,7 +363,7 @@ export default function Home() {
                 </span>
               </motion.div>
               <motion.h2 variants={fadeInUp} className="font-serif text-4xl md:text-5xl text-foreground mb-8 leading-tight">
-                ShipPack — Building a Brand Presence<br className="hidden md:block" /> From the Ground Up
+                ShipPack: Building Brand Visibility<br className="hidden md:block" /> Through Content
               </motion.h2>
 
               <motion.div variants={fadeInUp} className="mb-6">
@@ -371,16 +373,16 @@ export default function Home() {
               </motion.div>
               <motion.div variants={fadeInUp} className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 <p className="text-base leading-relaxed text-foreground/80">
-                  Managed ShipPack's full content and social media operation across Facebook, Instagram, LinkedIn, and Twitter over six months, with no paid advertising budget for the majority of the engagement period. Grew the brand's combined following from <strong className="text-foreground">750 to over 1,600</strong> organically through a structured content strategy that included trend-led posts, educational carousels, email newsletters, and community engagement.
+                  Managed ShipPack's full content and social media operation across Facebook, Instagram, LinkedIn, and Twitter, with no paid advertising budget for the majority of the engagement period. Grew the brand's LinkedIn following from <strong className="text-foreground">750 to over 1,600</strong> organically through a structured content strategy that included trend-led posts, educational carousels, email newsletters, and community engagement.
                 </p>
                 <p className="text-base leading-relaxed text-foreground/80">
-                  Produced and managed a six-month editorial content calendar covering daily posts across four platforms, each adapted in tone and format for its audience. Authored the brand's weekly email newsletter series with a voice that was warm, culturally grounded, and conversion-aware. Developed three lead magnets, a customer persona profile, and a structured social media performance reporting system tracking reach, engagement rate, impressions, and follower growth.
+                  Produced and managed editorial content calendars covering daily posts across four platforms. Authored the brand's weekly email newsletter series. Developed thought leadership articles, lead magnets, a customer persona profile, and a structured social media performance reporting system tracking reach, engagement rate, impressions, and overall growth.
                 </p>
               </motion.div>
 
               <motion.div variants={fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 border-t border-border pt-12">
                 {[
-                  { stat: "750 → 1,600+", label: "Combined Followers" },
+                  { stat: "750 → 1,600+", label: "LinkedIn Followers" },
                   { stat: "16.4%", label: "LinkedIn Engagement Rate Peak" },
                   { stat: "7×", label: "Twitter Impression Growth" },
                   { stat: "0", label: "Paid Ad Spend" },
@@ -696,7 +698,121 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 7. Resources */}
+        {/* 7. Experience Timeline */}
+        <section className="py-32 px-6 max-w-6xl mx-auto">
+          <div className="flex items-center gap-6 mb-16">
+            <h2 className="font-serif text-3xl md:text-4xl text-primary">Work History</h2>
+            <div className="flex-1 h-px bg-border"></div>
+            <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider whitespace-nowrap">6+ Years</span>
+          </div>
+
+          <div className="relative">
+            <div className="absolute left-0 top-0 bottom-0 w-px bg-border hidden md:block"></div>
+
+            {[
+              {
+                role: "Content Writer & Strategist",
+                company: "ShipPack",
+                period: "Aug 2024 – Present",
+                location: "Remote",
+                type: "Logistics & Technology",
+                bullets: [
+                  "Planned and executed digital content across blogs, email, and social media to grow audience engagement and brand visibility.",
+                  "Collaborated with design and growth teams on coordinated campaigns across multiple channels.",
+                  "Used analytics and performance reports to refine strategy and improve reach and growth.",
+                  "Maintained editorial calendars and content workflows for consistency and timely delivery.",
+                ],
+              },
+              {
+                role: "Content Writer & Social Media Manager",
+                company: "FAB Magazine",
+                period: "Jan – May 2024",
+                location: "Lagos, Nigeria",
+                type: "Media & Publishing",
+                bullets: [
+                  "Developed and published editorial and social media content tailored to audience interests and cultural conversations.",
+                  "Grew online readership and social media impressions through audience-focused storytelling.",
+                  "Monitored engagement metrics and adjusted content formats to improve performance.",
+                ],
+              },
+              {
+                role: "Writing Assistant & Marketing Intern",
+                company: "Mainland FM 98.3",
+                period: "Jan – May 2024",
+                location: "Lagos, Nigeria",
+                type: "Radio & Broadcasting",
+                bullets: [
+                  "Wrote scripts and promotional content for radio programmes and advertisements.",
+                  "Supported marketing and communications through documentation, proposals, and audience-focused messaging.",
+                  "Collaborated with team members on station promotions and client outreach.",
+                ],
+              },
+              {
+                role: "Content Manager",
+                company: "Spicy Buds Kilishi",
+                period: "Jan 2023 – Oct 2023",
+                location: "Enugu, Nigeria",
+                type: "FMCG & E-commerce",
+                bullets: [
+                  "Led digital content and social media strategy, resulting in significant growth in organic traffic and engagement.",
+                  "Designed and managed a six-month content calendar aligned with brand and growth objectives.",
+                  "Coordinated a small content team, ensuring quality, consistency, and timely delivery.",
+                  "Tracked performance metrics and used insights to optimize digital campaigns.",
+                ],
+              },
+              {
+                role: "Content Writer",
+                company: "IXORA Yoga",
+                period: "Nov 2021 – Feb 2022",
+                location: "Remote",
+                type: "Wellness & Lifestyle",
+                bullets: [
+                  "Produced blogs, newsletters, and social media content to support brand engagement and community building.",
+                  "Managed content schedules and compiled performance insights for internal review.",
+                ],
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, x: -16 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08 }}
+                className="relative md:pl-10 pb-12 last:pb-0 group"
+              >
+                <div className="absolute left-0 top-2 w-2 h-2 rounded-full bg-primary hidden md:block -translate-x-[3px] group-hover:scale-125 transition-transform"></div>
+
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
+                  <div>
+                    <h3 className="font-serif text-xl text-foreground leading-tight">{item.role}</h3>
+                    <p className="text-sm font-bold text-primary mt-0.5">{item.company}</p>
+                  </div>
+                  <div className="flex flex-col sm:items-end gap-1 flex-shrink-0">
+                    <span className="text-xs font-mono text-foreground/70 bg-muted px-2 py-1 self-start sm:self-auto">{item.period}</span>
+                    <span className="text-[10px] text-muted-foreground uppercase tracking-wider">{item.location}</span>
+                  </div>
+                </div>
+
+                <div className="mb-4">
+                  <span className="text-[10px] font-bold tracking-widest uppercase text-secondary border border-secondary/40 px-2 py-0.5">{item.type}</span>
+                </div>
+
+                <ul className="space-y-1.5">
+                  {item.bullets.map((b, j) => (
+                    <li key={j} className="flex items-start gap-3 text-sm text-foreground/75 leading-relaxed">
+                      <span className="w-1 h-1 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+
+                {i < 4 && <div className="mt-12 h-px bg-border md:hidden"></div>}
+              </motion.div>
+            ))}
+          </div>
+        </section>
+
+        {/* 8. Resources */}
         <section id="resources" className="py-32 px-6 max-w-6xl mx-auto border-b border-border">
           <div className="flex items-center gap-6 mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-primary">Resources</h2>
