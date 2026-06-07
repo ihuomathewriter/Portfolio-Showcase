@@ -78,11 +78,11 @@ const archiveItems = [
     image: "/landing-page-sample.png",
   },
   {
-    title: "Published Chapter — Bloomsbury Academic Press",
+    title: "Published Chapter: Bloomsbury Academic Press",
     publication: "Bloomsbury Academic",
     initials: "BA",
     year: "2024",
-    dek: "A peer-reviewed contribution to postcolonial African literary studies — full reference and link available soon.",
+    dek: "A peer-reviewed contribution to postcolonial African literary studies. Full reference and link available soon.",
     category: "Technical & Academic",
     tag: "Academic | Postcolonial Studies",
     pattern: "dots" as const,
@@ -106,7 +106,7 @@ const archiveItems = [
 const shippackCards = [
   {
     type: "Email Newsletter Series",
-    title: "ShipPack Weekly Email Drops — Series A",
+    title: "ShipPack Weekly Email Drops: Series A",
     desc: "Conversion-focused weekly newsletters blending brand storytelling, logistics education, and warm community voice.",
     link: "https://docs.google.com/document/d/17al8VworD-dFW9b6D0J4L4yyLEKa5Pj3_4SJ5Shb2NA/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -114,7 +114,7 @@ const shippackCards = [
   },
   {
     type: "Email Newsletter Series",
-    title: "ShipPack Weekly Email Drops — Series B",
+    title: "ShipPack Weekly Email Drops: Series B",
     desc: "Retention and engagement-led email copy, including the viral \"Quitters Don't Win\" campaign and motivational series.",
     link: "https://docs.google.com/document/d/1NtkhFJrnczyxNIPqLCPL-qMgzQzgb7N9-Rvb3oAISto/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -122,7 +122,7 @@ const shippackCards = [
   },
   {
     type: "Email Newsletter Series",
-    title: "ShipPack Weekly Email Drops — Series C",
+    title: "ShipPack Weekly Email Drops: Series C",
     desc: "Educational and product-led emails covering logistics strategy, delivery tips, and platform updates.",
     link: "https://docs.google.com/document/d/1COjANQyj_LVlW6AGHEYaAisgwCs8I7Z7GIolbqhD6TU/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -130,7 +130,7 @@ const shippackCards = [
   },
   {
     type: "Email Newsletter Series",
-    title: "ShipPack Weekly Email Drops — Series D",
+    title: "ShipPack Weekly Email Drops: Series D",
     desc: "Community-building and seasonal email campaigns including Easter, Q1 wrap-up, and TikTok launch announcements.",
     link: "https://docs.google.com/document/d/1FSEflgkUANW3N0JxniXGZ5QGM-xv8Jq03AXTSgD1DAA/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -139,14 +139,14 @@ const shippackCards = [
   {
     type: "Content Calendar",
     title: "6-Month Editorial Calendar (July–December)",
-    desc: "Full daily content calendar across Instagram, Facebook, LinkedIn, and TikTok — including captions, content types, design briefs, and hashtag strategy.",
+    desc: "Full daily content calendar across Instagram, Facebook, LinkedIn, and TikTok, including captions, content types, design briefs, and hashtag strategy.",
     link: "/Content_Calendar_For_ShipPack.pdf",
     buttonLabel: "Download Calendar (PDF)",
     isPdf: true,
   },
   {
     type: "Social Media Performance",
-    title: "Organic Growth Report — ShipPack",
+    title: "Organic Growth Report: ShipPack",
     desc: "Six months of organic social media performance across four platforms. Follower growth from 750 to 1,600+. LinkedIn engagement rate peaked at 16.4%. Twitter impressions grew 7x. Key insight: trend-led and leisure content consistently outperformed promotional posts, leading to a strategic pivot toward Reels and carousels.",
     link: null,
     buttonLabel: null,
@@ -155,7 +155,7 @@ const shippackCards = [
   },
   {
     type: "Audience Research",
-    title: "ShipPack Customer Persona Profile — Document A",
+    title: "ShipPack Customer Persona Profile: Document A",
     desc: "Audience research and persona documentation developed to inform ShipPack's content targeting and campaign strategy.",
     link: "https://docs.google.com/document/d/1qQfaL51SPHptJ5XB0L-rIc3vrV9mtO-5qlGWXOB4pT0/edit?usp=sharing",
     buttonLabel: "View Document",
@@ -171,7 +171,7 @@ const shippackCards = [
   },
   {
     type: "Growth Strategy",
-    title: "Content Growth Strategy — ShipPack",
+    title: "Content Growth Strategy: ShipPack",
     desc: "Strategic content and growth planning document covering channel direction, content pillars, and campaign frameworks.",
     link: "https://docs.google.com/document/d/1dpaOc1aMji6bOg6XKr23VIorBDLSVcOV7muicUYrPSc/edit?tab=t.0",
     buttonLabel: "View Document",
@@ -377,7 +377,7 @@ export default function Home() {
                 </div>
                 <div className="font-bold text-sm uppercase tracking-wide mb-2">Content Operations</div>
                 <div className="text-sm text-foreground/70 leading-relaxed">
-                  Built and managed an SEO-led content system for ShipPack that drove consistent organic traffic growth across blog, email, and social channels — without paid ads.
+                  Built and managed an SEO-led content system for ShipPack that drove consistent organic traffic growth across blog, email, and social channels.
                 </div>
               </div>
 
@@ -478,7 +478,7 @@ export default function Home() {
                                 <ArrowRight className="w-3 h-3" />
                                 {card.buttonLabel}
                               </a>
-                              <span className="text-[10px] text-muted-foreground">Opens in Google Docs — no sign-in required.</span>
+                              <span className="text-[10px] text-muted-foreground">Opens in Google Docs. No sign-in required.</span>
                             </>
                           )}
                         </>
@@ -491,7 +491,7 @@ export default function Home() {
           </section>
 
           {/* Spicy Buds Case Study */}
-          <section className="bg-primary text-primary-foreground py-32 px-6">
+          <section className="bg-primary text-primary-foreground py-20 px-6">
             <div className="max-w-6xl mx-auto">
               <div className="mb-16">
                 <div className="text-xs font-bold tracking-widest uppercase text-primary-foreground/60 mb-6 border-b border-primary-foreground/20 inline-block pb-2">
@@ -547,13 +547,75 @@ export default function Home() {
                   >
                     Read Case Study <ArrowRight className="w-3 h-3" />
                   </a>
-                  <div className="text-[10px] text-primary-foreground/40 mt-2">Opens in Google Docs — no sign-in required.</div>
+                  <div className="text-[10px] text-primary-foreground/40 mt-2">Opens in Google Docs. No sign-in required.</div>
                 </div>
               </div>
             </div>
           </section>
 
         </div>
+
+          {/* Jane Case Study */}
+          <section className="py-24 px-6 max-w-6xl mx-auto">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-100px" }}
+              variants={staggerContainer}
+            >
+              <motion.div variants={fadeInUp} className="mb-4">
+                <span className="text-[10px] font-bold tracking-widest uppercase text-secondary border-b border-secondary pb-1">
+                  CASE STUDY · JANE
+                </span>
+              </motion.div>
+              <motion.h2 variants={fadeInUp} className="font-serif text-4xl md:text-5xl text-foreground mb-6 leading-tight">
+                Jane: Designing the Voice of an AI Health Agent
+              </motion.h2>
+              <motion.div variants={fadeInUp} className="mb-8">
+                <span className="text-xs text-muted-foreground font-mono uppercase tracking-wider">
+                  Role: AI Conversation Designer · Feb 2026 – Apr 2026 · Remote
+                </span>
+              </motion.div>
+
+              <motion.div variants={fadeInUp} className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <p className="text-base leading-relaxed text-foreground/80">
+                  Jane is a Nigerian health-tech platform providing discreet, doctor-designed care for women. I was brought on to design the conversational experience for Jane's AI agent on WhatsApp: the primary channel through which users discover, ask questions, and access care programmes.
+                </p>
+                <p className="text-base leading-relaxed text-foreground/80">
+                  My work covered the full conversation design process: defining the agent's persona and tone of voice, building a response framework aligned with Jane's brand values, and scripting decision-tree dialogue flows for onboarding, product discovery, and support interactions.
+                </p>
+              </motion.div>
+
+              <motion.div variants={fadeInUp} className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 border-t border-border pt-12">
+                {[
+                  {
+                    label: "The Brief",
+                    text: "Design a WhatsApp AI agent that feels warm, trustworthy, and medically credible, without sounding clinical or robotic, for Nigerian women navigating sensitive health topics.",
+                  },
+                  {
+                    label: "My Approach",
+                    text: "Built a persona framework grounding the agent's voice in empathy, cultural familiarity, and clarity. Mapped user intents across key journeys and scripted conversation flows for each touchpoint.",
+                  },
+                  {
+                    label: "Deliverables",
+                    text: "Agent persona document, tone of voice guidelines, response framework, WhatsApp dialogue scripts covering onboarding, care programme discovery, FAQ handling, and escalation paths.",
+                  },
+                ].map((item, i) => (
+                  <div key={i} className="bg-muted/40 border border-border p-6">
+                    <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">{item.label}</h4>
+                    <p className="text-sm leading-relaxed text-foreground/80">{item.text}</p>
+                  </div>
+                ))}
+              </motion.div>
+
+              <motion.div variants={fadeInUp} className="border-l-2 border-secondary pl-6 max-w-2xl">
+                <p className="text-sm text-foreground/70 leading-relaxed italic">
+                  "This project required me to think beyond content — into experience design, behavioural psychology, and brand voice at scale. Every message the agent sends is a brand touchpoint. Getting the tone right was the product."
+                </p>
+                <p className="text-xs text-muted-foreground mt-3 font-mono uppercase tracking-wider">Ihuoma Okechukwu</p>
+              </motion.div>
+            </motion.div>
+          </section>
 
         {/* 4. Strategic Pillars */}
         <section id="pillars" className="py-32 px-6 max-w-6xl mx-auto">
@@ -674,7 +736,7 @@ export default function Home() {
                   </p>
                   {item.comingSoon ? (
                     <span className="inline-flex items-center px-3 py-1 text-[10px] font-bold uppercase tracking-widest bg-muted text-muted-foreground border border-border self-start">
-                      Peer Reviewed / Published — Link Coming Soon
+                      Peer Reviewed / Published · Link Coming Soon
                     </span>
                   ) : item.link ? (
                     <a
@@ -702,7 +764,7 @@ export default function Home() {
                 <div className="flex-1 h-px bg-border"></div>
               </div>
               <p className="text-lg leading-relaxed text-foreground/80">
-                Ihuoma Okechukwu holds a B.A. in English and Literary Studies from the University of Nigeria, Nsukka, where her undergraduate research focused on postcolonial identity and memory in contemporary African fiction — work that later became a published chapter with Bloomsbury Academic Press. She is an incoming M.A. student and Teaching Fellow in the English Department at <span className="font-semibold text-foreground">Lehigh University (Fall 2026)</span>, where her research continues at the intersection of postcolonial African fiction, spatial theory, and digital humanities. Her academic background shapes how she approaches content — not as a production task, but as an act of positioning, narrative, and meaning-making.
+                Ihuoma Okechukwu is a Digital Communications Specialist with over six years of experience creating strategic, audience-focused content across media, technology, logistics, education, and social impact spaces. She has a proven ability to plan and execute digital campaigns, manage social media platforms, and use analytics to improve engagement and visibility. A strong storyteller, she translates complex ideas into clear, relatable narratives that support organisational goals and public engagement. She is passionate about development communication and impact-driven storytelling through digital media. Her academic foundation in English and Literary Studies from the <span className="font-semibold text-foreground">University of Nigeria, Nsukka</span>, sharpened her ability to read audiences, construct meaning, and build narratives that resonate. She is an incoming M.A. Teaching Fellow at <span className="font-semibold text-foreground">Lehigh University (Fall 2026)</span>.
               </p>
             </div>
 
