@@ -229,13 +229,26 @@ export default function Home() {
           <div className="font-serif font-bold tracking-tight text-lg text-primary">
             Ihuoma Okechukwu.
           </div>
-          <nav className="hidden md:flex items-center gap-8 text-xs font-medium tracking-wide uppercase">
-            <button onClick={() => scrollTo("impact")} className="hover:text-primary transition-colors">Work</button>
-            <button onClick={() => scrollTo("case-studies")} className="hover:text-primary transition-colors">Cases</button>
-            <button onClick={() => scrollTo("pillars")} className="hover:text-primary transition-colors">Pillars</button>
-            <button onClick={() => scrollTo("archive")} className="hover:text-primary transition-colors">Archive</button>
-            <button onClick={() => scrollTo("foundations")} className="hover:text-primary transition-colors">Foundations</button>
-            <button onClick={() => scrollTo("contact")} className="hover:text-primary transition-colors">Contact</button>
+          <nav className="flex items-center gap-0.5 text-[10px] font-bold tracking-widest uppercase overflow-x-auto scrollbar-none">
+            {[
+              { label: "Work", id: "impact" },
+              { label: "Cases", id: "case-studies" },
+              { label: "Pillars", id: "pillars" },
+              { label: "Archive", id: "archive" },
+              { label: "Foundations", id: "foundations" },
+              { label: "History", id: "work-history" },
+              { label: "Certs", id: "certifications" },
+              { label: "Resources", id: "resources" },
+              { label: "Contact", id: "contact" },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollTo(item.id)}
+                className="px-3 py-1.5 rounded hover:text-primary hover:bg-primary/8 transition-colors whitespace-nowrap flex-shrink-0"
+              >
+                {item.label}
+              </button>
+            ))}
           </nav>
         </div>
       </header>
@@ -373,7 +386,7 @@ export default function Home() {
               </motion.div>
               <motion.div variants={fadeInUp} className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 <p className="text-base leading-relaxed text-foreground/80">
-                  Managed ShipPack's full content and social media operation across Facebook, Instagram, LinkedIn, and Twitter, with no paid advertising budget for the majority of the engagement period. Grew the brand's LinkedIn following from <strong className="text-foreground">750 to over 1,600</strong> organically through a structured content strategy that included trend-led posts, educational carousels, email newsletters, and community engagement.
+                  Managed ShipPack's full content and social media operation across Facebook, Instagram, LinkedIn, and Twitter. Grew the brand's LinkedIn following from <strong className="text-foreground">750 to over 1,600</strong> organically through a structured content strategy that included trend-led posts, educational carousels, email newsletters, and community engagement.
                 </p>
                 <p className="text-base leading-relaxed text-foreground/80">
                   Produced and managed editorial content calendars covering daily posts across four platforms. Authored the brand's weekly email newsletter series. Developed thought leadership articles, lead magnets, a customer persona profile, and a structured social media performance reporting system tracking reach, engagement rate, impressions, and overall growth.
@@ -699,7 +712,7 @@ export default function Home() {
         </section>
 
         {/* 7. Experience Timeline */}
-        <section className="py-32 px-6 max-w-6xl mx-auto">
+        <section id="work-history" className="py-32 px-6 max-w-6xl mx-auto">
           <div className="flex items-center gap-6 mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-primary">Work History</h2>
             <div className="flex-1 h-px bg-border"></div>
@@ -812,7 +825,61 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 8. Resources */}
+        {/* 8. Certifications */}
+        <section id="certifications" className="bg-muted py-32 px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center gap-6 mb-16">
+              <h2 className="font-serif text-3xl md:text-4xl text-primary">Certifications & Training</h2>
+              <div className="flex-1 h-px bg-border"></div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                {
+                  year: "2020",
+                  issuer: "African Leadership Institute",
+                  credential: "Certificate in Content Creation & Social Media Management",
+                  focus: "Content creation, platform strategy, and digital campaign management across social media channels.",
+                  tag: "Content & Social",
+                },
+                {
+                  year: "2025",
+                  issuer: "Chartered Institute",
+                  credential: "Contract, Project & Facility Management",
+                  focus: "Professional training in project management frameworks, contract administration, and facility operations.",
+                  tag: "Management",
+                },
+                {
+                  year: "2025",
+                  issuer: "SEMrush Academy",
+                  credential: "SEO & Content Marketing",
+                  focus: "Advanced SEO strategy, keyword research, on-page optimisation, and content marketing for organic growth.",
+                  tag: "SEO & Analytics",
+                },
+              ].map((cert, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.1 }}
+                  className="bg-background border border-border p-8 flex flex-col"
+                >
+                  <div className="flex items-start justify-between gap-4 mb-6">
+                    <span className="text-[10px] font-bold tracking-widest uppercase text-secondary border border-secondary/40 px-2 py-0.5 self-start">{cert.tag}</span>
+                    <span className="font-mono text-xs text-muted-foreground">{cert.year}</span>
+                  </div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">{cert.issuer}</p>
+                  <h3 className="font-serif text-lg leading-snug text-foreground mb-4 flex-1">{cert.credential}</h3>
+                  <div className="h-px bg-border mb-4"></div>
+                  <p className="text-sm text-foreground/65 leading-relaxed">{cert.focus}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 9. Resources */}
         <section id="resources" className="py-32 px-6 max-w-6xl mx-auto border-b border-border">
           <div className="flex items-center gap-6 mb-16">
             <h2 className="font-serif text-3xl md:text-4xl text-primary">Resources</h2>
