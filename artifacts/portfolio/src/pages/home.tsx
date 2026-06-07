@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Mail, Linkedin, Instagram } from "lucide-react";
+import { ArrowRight, Download, Mail, Linkedin, Instagram, Menu, X } from "lucide-react";
 import { EditorialCard } from "@/components/editorial-card";
 import { CountUp } from "@/components/count-up";
 import { cn } from "@/lib/utils";
@@ -187,6 +187,7 @@ const resourceItems = [
     buttonLabel: "Download Checklist (PDF)",
     initials: "SL",
     pattern: "grid" as const,
+    image: "/resource-sustainable-logistics.png",
   },
   {
     type: "Toolkit",
@@ -196,6 +197,7 @@ const resourceItems = [
     buttonLabel: "Download Toolkit (PDF)",
     initials: "SC",
     pattern: "diagonal" as const,
+    image: "/resource-shipping-toolkit.png",
   },
   {
     type: "Checklist",
@@ -205,11 +207,25 @@ const resourceItems = [
     buttonLabel: "Download Checklist (PDF)",
     initials: "PE",
     pattern: "crosshatch" as const,
+    image: "/resource-perishable-export.png",
   },
+];
+
+const NAV_LINKS = [
+  { label: "Work", id: "impact" },
+  { label: "Cases", id: "case-studies" },
+  { label: "Pillars", id: "pillars" },
+  { label: "Archive", id: "archive" },
+  { label: "Foundations", id: "foundations" },
+  { label: "History", id: "work-history" },
+  { label: "Certs", id: "certifications" },
+  { label: "Resources", id: "resources" },
+  { label: "Contact", id: "contact" },
 ];
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const filteredArchive = activeCategory === "All"
     ? archiveItems
@@ -218,29 +234,22 @@ export default function Home() {
   const scrollTo = (id: string) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
+    setMenuOpen(false);
   };
 
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-primary/20 selection:text-primary">
 
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-serif font-bold tracking-tight text-lg text-primary">
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
+          <div className="font-serif font-bold tracking-tight text-lg text-primary flex-shrink-0">
             Ihuoma Okechukwu.
           </div>
-          <nav className="flex items-center gap-0.5 text-[10px] font-bold tracking-widest uppercase overflow-x-auto scrollbar-none">
-            {[
-              { label: "Work", id: "impact" },
-              { label: "Cases", id: "case-studies" },
-              { label: "Pillars", id: "pillars" },
-              { label: "Archive", id: "archive" },
-              { label: "Foundations", id: "foundations" },
-              { label: "History", id: "work-history" },
-              { label: "Certs", id: "certifications" },
-              { label: "Resources", id: "resources" },
-              { label: "Contact", id: "contact" },
-            ].map((item) => (
+
+          {/* Desktop nav */}
+          <nav className="hidden md:flex items-center gap-0.5 text-[10px] font-bold tracking-widest uppercase overflow-x-auto scrollbar-none">
+            {NAV_LINKS.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollTo(item.id)}
@@ -250,7 +259,33 @@ export default function Home() {
               </button>
             ))}
           </nav>
+
+          {/* Mobile hamburger */}
+          <button
+            className="md:hidden p-2 -mr-2 text-foreground hover:text-primary transition-colors"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
         </div>
+
+        {/* Mobile dropdown */}
+        {menuOpen && (
+          <div className="md:hidden border-t border-border bg-background/98 backdrop-blur-sm">
+            <nav className="max-w-6xl mx-auto px-6 py-4 grid grid-cols-3 gap-1">
+              {NAV_LINKS.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollTo(item.id)}
+                  className="text-[10px] font-bold tracking-widest uppercase text-foreground/80 hover:text-primary hover:bg-primary/8 px-3 py-3 rounded text-center transition-colors"
+                >
+                  {item.label}
+                </button>
+              ))}
+            </nav>
+          </div>
+        )}
       </header>
 
       <main>
@@ -896,13 +931,21 @@ export default function Home() {
                 transition={{ delay: i * 0.1 }}
                 className="flex flex-col border border-border"
               >
-                <div className="aspect-[4/3]">
-                  <EditorialCard
-                    initials={item.initials}
-                    pattern={item.pattern}
-                    variant={i % 2 === 0 ? "primary" : "secondary"}
-                    className="h-full rounded-none"
-                  />
+                <div className="aspect-[4/3] overflow-hidden">
+                  {"image" in item && item.image ? (
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <EditorialCard
+                      initials={item.initials}
+                      pattern={item.pattern}
+                      variant={i % 2 === 0 ? "primary" : "secondary"}
+                      className="h-full rounded-none"
+                    />
+                  )}
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="text-[10px] font-bold tracking-widest uppercase text-secondary mb-3">{item.type}</div>
