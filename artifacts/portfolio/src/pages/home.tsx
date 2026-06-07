@@ -33,7 +33,7 @@ const archiveItems = [
     title: "AfCFTA Impact: What African Businesses Need to Know",
     publication: "ShipPack",
     initials: "SP",
-    year: "2024",
+    year: "2025",
     dek: "How the African Continental Free Trade Area reshapes cross-border logistics and SME strategy.",
     category: "Logistics & Trade",
     tag: "Logistics & Trade | SEO Article",
@@ -69,7 +69,7 @@ const archiveItems = [
     title: "Landing Page Sample",
     publication: "Copywriting Portfolio",
     initials: "CP",
-    year: "2024",
+    year: "2026",
     dek: "A conversion-optimised landing page demonstrating persuasive copy structure, benefit-led hierarchy, and CTA design.",
     category: "Copywriting & Landing Pages",
     tag: "Copywriting | Landing Page",
@@ -81,7 +81,7 @@ const archiveItems = [
     title: "Published Chapter: Bloomsbury Academic Press",
     publication: "Bloomsbury Academic",
     initials: "BA",
-    year: "2024",
+    year: "2025",
     dek: "A peer-reviewed contribution to postcolonial African literary studies. Full reference and link available soon.",
     category: "Technical & Academic",
     tag: "Academic | Postcolonial Studies",
@@ -93,7 +93,7 @@ const archiveItems = [
     title: "25 Best Practices for Sustainable Logistics: How to Build a Lasting Supply Chain",
     publication: "ShipPack Blog",
     initials: "SP",
-    year: "2024",
+    year: "2025",
     dek: "Sustainable logistics is about designing operations that are resilient, efficient, adaptable, and built to withstand market shifts, disruptions, and customer demands.",
     category: "Logistics & Trade",
     tag: "Logistics | Sustainability",
@@ -105,7 +105,7 @@ const archiveItems = [
     title: "Logistics and Food Security: Africa's High-Stakes Intersection",
     publication: "ShipPack Blog",
     initials: "SP",
-    year: "2024",
+    year: "2025",
     dek: "From spoiled harvests on Kenyan roads to continent-wide supply failures: how logistics breakdowns silently drive food insecurity across Africa.",
     category: "Logistics & Trade",
     tag: "Logistics | Food Security | Africa",
@@ -242,6 +242,7 @@ const NAV_LINKS = [
   { label: "Jane", id: "jane-case-study" },
   { label: "Pillars", id: "pillars" },
   { label: "Archive", id: "archive" },
+  { label: "Skills", id: "skills" },
   { label: "Foundations", id: "foundations" },
   { label: "History", id: "work-history" },
   { label: "Certs", id: "certifications" },
@@ -402,7 +403,7 @@ export default function Home() {
 
               <div className="p-10 lg:p-16 flex flex-col justify-center">
                 <div className="font-serif text-3xl lg:text-4xl text-primary mb-4 tracking-tight font-bold leading-snug">
-                  SEO-Led Growth System
+                  Content-Led Growth System
                 </div>
                 <div className="font-bold text-sm uppercase tracking-wide mb-2">Content Operations</div>
                 <div className="text-sm text-foreground/70 leading-relaxed">
@@ -637,11 +638,20 @@ export default function Home() {
                 ))}
               </motion.div>
 
-              <motion.div variants={fadeInUp} className="border-l-2 border-secondary pl-6 max-w-2xl">
-                <p className="text-sm text-foreground/70 leading-relaxed italic">
-                  "This project required me to think beyond content — into experience design, behavioural psychology, and brand voice at scale. Every message the agent sends is a brand touchpoint. Getting the tone right was the product."
-                </p>
-                <p className="text-xs text-muted-foreground mt-3 font-mono uppercase tracking-wider">Ihuoma Okechukwu</p>
+              <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-6 mb-12">
+                <div className="bg-primary/5 border border-primary/20 px-8 py-6 flex flex-col items-center text-center min-w-[160px]">
+                  <span className="font-serif text-5xl text-primary font-bold">30+</span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground mt-2">New Users</span>
+                  <span className="text-xs text-foreground/60 mt-1">onboarded in a single day via in-person conversations</span>
+                </div>
+                <div className="border-l border-border pl-6 flex items-center">
+                  <p className="text-sm text-foreground/70 leading-relaxed italic max-w-xl">
+                    "This project required me to think beyond content — into experience design, behavioural psychology, and brand voice at scale. Every message the agent sends is a brand touchpoint. Getting the tone right was the product."
+                  </p>
+                </div>
+              </motion.div>
+              <motion.div variants={fadeInUp}>
+                <p className="text-xs text-muted-foreground font-mono uppercase tracking-wider">Ihuoma Okechukwu</p>
               </motion.div>
             </motion.div>
           </section>
@@ -784,7 +794,63 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 6. Foundations */}
+        {/* 6. Skills */}
+        <section id="skills" className="py-32 px-6 max-w-6xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={staggerContainer}
+          >
+            <motion.div variants={fadeInUp} className="flex items-center gap-6 mb-16">
+              <h2 className="font-serif text-3xl md:text-4xl text-primary whitespace-nowrap">Skills & Expertise</h2>
+              <div className="flex-1 h-px bg-border"></div>
+            </motion.div>
+
+            <motion.div variants={fadeInUp} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+              {[
+                {
+                  category: "Content Strategy",
+                  items: ["Content strategy & planning", "Editorial calendar development", "Content audits & gap analysis", "Brand voice & style guides", "Content workflow design"],
+                },
+                {
+                  category: "Writing & Copywriting",
+                  items: ["Long-form SEO articles", "Email newsletters", "Landing page copy", "Social media copy", "Scriptwriting & dialogue design"],
+                },
+                {
+                  category: "SEO & Growth",
+                  items: ["Keyword research & mapping", "On-page SEO optimisation", "Content distribution strategy", "Organic traffic growth", "Performance analysis & reporting"],
+                },
+                {
+                  category: "Social Media",
+                  items: ["Platform management (Instagram, LinkedIn, Facebook, X, TikTok)", "Trend-led content production", "Community engagement", "Carousel & Reels strategy", "Follower growth (organic)"],
+                },
+                {
+                  category: "Research & Strategy",
+                  items: ["Audience research & persona development", "Competitive content analysis", "Campaign planning & execution", "Development communication", "Impact storytelling"],
+                },
+                {
+                  category: "Tools & Collaboration",
+                  items: ["Google Analytics & Search Console", "Notion, Trello, Asana", "Canva & content design briefs", "Cross-functional team collaboration", "Remote & async work environments"],
+                },
+              ].map((group, i) => (
+                <motion.div key={i} variants={fadeInUp} className="border-t-2 border-primary pt-6">
+                  <h3 className="text-xs font-bold tracking-widest uppercase text-primary mb-4">{group.category}</h3>
+                  <ul className="space-y-2">
+                    {group.items.map((skill, j) => (
+                      <li key={j} className="text-sm text-foreground/80 flex items-start gap-2">
+                        <span className="text-secondary mt-1 flex-shrink-0">·</span>
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              ))}
+            </motion.div>
+          </motion.div>
+        </section>
+
+        {/* 6b. Foundations */}
         <section id="foundations" className="bg-muted py-32 px-6">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             <div>
@@ -799,7 +865,7 @@ export default function Home() {
                 Her work has contributed to up to 40% growth in organic traffic, increased visibility across blogs, email, and social channels, and content systems that scale sustainably. Across media, technology, education, and consumer brands, she has owned content end to end: building strategies from scratch, writing and optimising high-performing content, and using performance data to refine what works.
               </p>
               <p className="text-lg leading-relaxed text-foreground/80">
-                She is passionate about development communication and impact-driven storytelling through digital media. Her academic foundation in English and Literary Studies from the <span className="font-semibold text-foreground">University of Nigeria, Nsukka</span>, sharpened her ability to read audiences, construct meaning, and build narratives that resonate. She is an incoming M.A. Teaching Fellow at <span className="font-semibold text-foreground">Lehigh University (Fall 2026)</span>.
+                She is passionate about development communication and impact-driven storytelling through digital media. Her academic foundation in English and Literary Studies from the <span className="font-semibold text-foreground">University of Nigeria, Nsukka</span>, sharpened her ability to read audiences, construct meaning, and build narratives that resonate.
               </p>
             </div>
 
@@ -813,12 +879,6 @@ export default function Home() {
                   <dt className="text-xs text-foreground/60 uppercase mb-1">Undergraduate Degree</dt>
                   <dd className="font-serif text-lg text-primary">B.A. English & Literary Studies</dd>
                   <dd className="text-sm text-foreground/80">University of Nigeria, Nsukka (UNN) · Graduated May 2024</dd>
-                </div>
-
-                <div>
-                  <dt className="text-xs text-foreground/60 uppercase mb-1">Graduate Study (Incoming, Fall 2026)</dt>
-                  <dd className="font-serif text-lg text-primary">M.A. English · Teaching Fellow</dd>
-                  <dd className="text-sm text-foreground/80">Lehigh University</dd>
                 </div>
 
               </dl>
